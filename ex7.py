@@ -1,15 +1,15 @@
 """Lê o número de horas de um empregado
 """
-if __name__ == '__main__':
+"""if __name__ == '__main__':
     horas = int(input("Digite o numero de horas"))
     sporhora = int(input("Salário por hora"))
-    n = input("Horas extras")
+    extra = input("Horas extras")
 
 
 
 if horas < 40:
     salario = sporhora * horas
-    extra = 0
+
     print(f'Salário {salario + extra}')
 
 
@@ -19,8 +19,8 @@ else:
     extra = (horas - 40) * (sporhora * 2)
 
     print(f'Salário {salario + extra}')
-
 """
+
 def salario(num1, num2):
     total = 0
     if num1 <= 40:
@@ -41,4 +41,4 @@ while __name__ == '__main__':
         num2 = int(input('Insira os preço/hora: '))
         print(f'O salário de {num1} horas é {salario(num1, num2)}')
         continuar = input('Quer continuar? [s, n] ')
-    print('Adeus!')"""
+    print('Adeus!')
